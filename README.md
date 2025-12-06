@@ -1,10 +1,10 @@
 # <p align="center">Real-Time Dense 3D Reconstruction in Dynamic Scenes via NeRF-SLAM Fusion</p>
 
- <p align="center">Jia Liu, Die Mao, Jiaxu Ning, and Dapeng Chen</p>
-  <p align="center">Nanjing University of Information Science & Technology</p>
+ <p align="center">Jia Liu, Die Mao, Jiaxu Ning, and Dapeng Chen*</p>
+  <p align="center">Nanjing University of Information Science and Technology</p>
 
 ## <p align="center">ABSTRACT</p>
-This paper presents a novel approach for real-time dense 3D reconstruction in dynamic scenes by integrating Neural Radiance Fields (NeRF) with Simultaneous Localization and Mapping (SLAM). Traditional SLAM systems often struggle with poor reconstruction effects, low real-time performance, and robustness issues in dynamic environments. Our method addresses these challenges by first employing YOLO-based semantic segmentation to remove dynamic objects from the SLAM system, thereby improving localization accuracy. We then utilize Instant NGP, an extended version of NeRF, for reconstruction tasks, significantly enhancing training and inference speeds while ensuring real-time performance. To mitigate the effects of dynamic occlusion, we introduce motion consistency and depth loss functions. Experimental results on the TUM, Replica, and ScanNet datasets demonstrate that our method outperforms existing SLAM and NeRF-based mapping techniques in terms of both accuracy and real-time performance, providing high-precision dense maps for robot navigation and other tasks.
+Aiming at the challenges that traditional Simultaneous Localization and Mapping (SLAM) systems often face in dynamic environments, such as poor reconstruction effects, insufficient real-time performance and robustness, we present a novel approach for real-time dense 3D reconstruction in dynamic scenes by integrating Neural Radiance Fields (NeRF) with SLAM. Our method addresses these challenges by first employing YOLO-based semantic segmentation to remove dynamic objects from the SLAM system, thereby improving localization accuracy. We then utilize Instant NGP, an extended version of NeRF, for reconstruction tasks, significantly enhancing training and inference speeds while ensuring real-time performance. To mitigate the effects of dynamic occlusion, we introduce motion consistency and depth loss functions. Experimental results on the TUM, Replica, and ScanNet datasets demonstrate that our method outperforms existing SLAM and NeRF-based mapping techniques in terms of both accuracy and real-time performance, providing high-precision dense maps for robot navigation and other tasks.
 
 
 ### Requirements
